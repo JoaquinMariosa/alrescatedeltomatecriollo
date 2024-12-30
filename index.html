@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Al rescate del tomate criollo</title>
+    <meta name="description" content="Un proyecto de la Facultad de Agronomía de la Universidad de Buenos Aires, que busca recuperar el sabor del tomate.">
+    <meta name="keywords" content="Al rescate del tomate criollo, tomate criollo, facultad de agronomía, universidad de buenos aires, UBA">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <a href="#home"><img src="images/logo.svg" alt="Al rescate del tomate criollo"></a>
+        </div>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a class="active" href="#home">Inicio</a></li>
+                <li><a href="#about-us">Sobre nosotros</a></li>
+                <li><a href="#events">Eventos</a></li>
+                <li><a href="#tomato">Videos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home -->
+    <section id="home" class="home-section">
+        <div class="home">
+            <div class="text-home">
+                <h1>Al rescate del <span>tomate</span> criollo</h1>
+                <div class="slogan">
+                    <h4>Volver al </h4>
+                    <h4>
+                        <span class="word w-1">sabor.</span>
+                        <span class="word w-2">pasado.</span>
+                    </h4>
+                </div>
+                <p>Buscamos recuperar el sabor y el aroma que el tomate fue perdiendo con el paso del tiempo. Recuperamos variedades de tomates del siglo pasado, las cultivamos, y estamos distribuyendo sus semillas.</p>
+            </div>
+            <img src="images/home-img.png" alt="Ilustración de inicio">
+        </div>
+    </section>
+    <div class="wave-home" style="height: 150px; overflow: hidden;">
+        <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-10.44,148.52 C150.00,150.00 271.49,-49.98 526.23,136.67 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: #cac8af;"></path></svg>
+        <div class="wave-fill-home"></div>
+    </div>
+    
+    <!-- About us -->
+    <section id="about-us" class="about-us-section">
+        <div class="about-us">
+            <!-- Slider -->
+            <div class="slider">
+                <div class="slides fade">
+                    <div class="numbertext">1 / 4</div>
+                    <img src="images/img2-slider.jpg" alt="Sobre nosotros">
+                </div>
+                <div class="slides fade">
+                    <div class="numbertext">2 / 4</div>
+                    <img src="images/img1-slider.jpg" alt="Sobre nosotros">
+                </div>
+                <div class="slides fade">
+                    <div class="numbertext">3 / 4</div>
+                    <img src="images/img3-slider.jpg" alt="Sobre nosotros">
+                </div>
+                <div class="slides fade">
+                    <div class="numbertext">4 / 4</div>
+                    <img src="images/img4-slider.jpg" alt="Sobre nosotros">
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                <div class="dots">
+                    <span class="dot" onclick="currentSlides(1)"></span>
+                    <span class="dot" onclick="currentSlides(2)"></span>
+                    <span class="dot" onclick="currentSlides(3)"></span>
+                    <span class="dot" onclick="currentSlides(4)"></span>
+                </div>
+            </div>
+            <div class="text-about-us">
+                <h1>Sobre nosotros</h1>
+                <p>Somos un proyecto que nace en la cátedra de genética de la Facultad de Agronomía de la Universidad de Buenos Aires a partir de la pregunta: ¿qué pasó con el sabor del tomate?<br> 
+                <br>
+                Recuperamos semillas antiguas colectadas en Argentina entre la década del 30' y del 70' que estaban en bancos de germoplasma de Canadá y Estados Unidos, y a través del mejoramiento participativo buscamos difundir estas variedades y conocer sus características.</p>
+            </div>
+        </div>
+    </section>
+    <div class="wave-about-us" style="height: 150px; overflow: hidden;">
+        <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-19.47,89.30 C91.69,-14.30 391.92,-16.27 521.15,72.52 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #688f74;"></path></svg>
+        <div class="wave-fill-about-us"></div>
+    </div>
+
+    <!-- Eventos -->
+    <section id="events" class="events-section">
+        <div class="events">
+            <div class="text-events">
+                <h1>Eventos</h1>
+                <h4>Degustación FAUBA</h4>
+                <p>En marzo del 2019 en el contexto de la Feria del productor al consumidor en FAUBA, se realizó una degustación abierta a todo público, en donde más de 600 personas puntuaron el sabor de los mismos. Los tomates antiguos tuvieron la mejor valoración con ocho puntos de promedio, luego quedaron los tomates actuales producidos de igual modo que fueron aprobados, pero con bajos valores. Por último, estuvieron los de la verdulería que resultaron aplazados con tres puntos de promedio.</p>
+            </div>
+            <img src="images/degustacion-img.jpg">
+            <div class="text-events">
+                <h4>Feria de semillas CCK</h4>
+                <p>Participamos en las dos ediciones, en Octubre del 2021 y 2022. Entregamos semillas a productores y aficionados que pasaron por la feria, dimos a conocer el proyecto y creamos vínculos con aquellos que se interesaron en evaluar estas semillas y distribuirlas a su vez en sus zonas.</p>
+            </div>
+            <img src="images/feria-cck-img.jpg">
+            <div class="text-events">
+                <h4>Entrega de semillas a productores</h4>
+                <p>En abril del 2022 nos reunimos con productores en la estación experimental Gorina del MDA, para contarles el trabajo realizado por el proyecto tanto en Gorina como en FAUBA. A su vez, distribuimos semillas entre los productores para que puedan producir estos tomates y que de esta manera lleguen a los consumidores. Compartimos los resultados de las evaluaciones contando las cualidades de las variedades criollas seleccionadas que recibirían luego, con la intención de que lleguen así de la mano del productor al consumidor en la próxima temporada.</p>
+            </div>
+            <img src="images/productores-img.jpg">
+            <div class="text-events">
+                <h4>Entrega de semillas FAUBA</h4>
+                <p>Desde el comienzo del proyecto en 2019 hasta la actualidad, el proyecto realiza entrega de semillas a productores y aficionados interesados en el proyecto de recuperación y conservación de estas variedades antiguas y con sabor, participando también del mejoramiento colaborativo a través de Bioleft. Enviamos estas semillas a diferentes puntos del país para que puedan también ser evaluadas en diferentes condiciones y seguir distribuyéndose a través de estos guardianes de semillas.</p>
+            </div>
+            <img src="images/fauba-img.jpg">
+        </div>
+    </section>
+    <div class="wave-events" style="height: 150px; overflow: hidden;">
+        <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-0.84,105.08 C156.03,-100.15 303.89,190.95 501.40,84.37 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #acb597;"></path></svg>
+        <div class="wave-fill-events"></div>
+    </div>
+
+    <!-- Videos -->
+    <section id="tomato" class="tomato-section">
+        <div class="tomato">
+            <div class="text-tomato">
+                <h1>Tutoriales</h1>
+                <h4>¿Cómo cultivar tomate?</h4>
+                <p>Marcela Harris, profesora de la Cátedra de Horticultura de la Facultad de Agronomía de la Universidad de Buenos Aires, nos enseña sobre cómo tener buenas plantas de tomate en nuestra huerta.</p>
+            </div>
+            <div class="card-container">
+                <div class="card-video1">
+                    <div class="card-image card-img1"></div>
+                    <div class="card-content">
+                        <h2>Parte 1</h2>
+                        <p>Descripción de la planta de tomate, prácticas culturales, condiciones óptimas de cultivo, podredumbre apical, cracking, plagas y prácticas preventivas.</p>
+                        <a href="https://www.youtube.com/watch?v=lSZ5Pysg1I8&ab_channel=Bioleft" target="_blank"><button class="btn-card">Ir al video</button></a>
+                    </div>
+                </div>
+                <div class="card-video2">
+                    <div class="card-image card-img2"></div>
+                    <div class="card-content">
+                        <h2>Parte 2</h2>
+                        <p>Almácigos y trasplante, contenedor, sustratos y semillas, cómo y dónde ubicar las plantas y recolección de semillas para mantener las variedades.</p>
+                        <a href="https://www.youtube.com/watch?v=wM7oxlcO3h0&ab_channel=Bioleft" target="_blank"><button class="btn-card">Ir al video</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="wave-tomato" style="height: 150px; overflow: hidden;">
+        <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-0.84,105.08 C156.03,-100.15 303.89,190.95 501.40,84.37 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #688f74;"></path></svg>
+        <div class="wave-fill-tomato"></div>
+    </div>
+    
+    <!-- Contact -->
+    <section id="contact" class="contact-section">
+        <div class="contact">
+            <div class="text-contact">
+                <h1>Contacto</h1>
+                <h4>¡Si te queda alguna duda o nos querés contactar podés escribirnos en los comentarios para que te podamos ayudar!</h4>
+            </div>
+            <div class="mail-contact">
+                <form>
+                    <h1>Escribinos</h1>
+
+                    <input type="text" id="nombre" placeholder="Nombre">
+                    <small class="error"></small>
+
+                    <input type="text" id="email" placeholder="Correo electrónico">
+                    <small class="error"></small>
+
+                    <input type="text" id="asunto" placeholder="Asunto">
+                    <small class="error"></small>
+
+                    <textarea id="message" placeholder="Mensaje" rows="6"></textarea>
+                    <small class="error"></small>
+
+                    <div>
+                        <input class="send" type="submit" value="Enviar mensaje">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <div class="spacer layer1"></div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-images">
+            <a href="https://www.agro.uba.ar/" target="_blank"><img class="footer-img footer-img-1" src="images/footer-image1.png" alt="Facultad de agronomía"></a> 
+            <a href="https://www.gba.gob.ar/desarrollo_agrario" target="_blank"><img class="footer-img footer-img-2" src="images/footer-image2.png" alt="Ministerio de desarrollo agrario"></a>
+            <a href="https://www.bioleft.org/es/" target="_blank"><img class="footer-img footer-img-3" src="images/footer-image3.png" alt="Bioleft"></a>
+            <a href="https://ifibyne.fcen.uba.ar/" target="_blank"><img class="footer-img footer-img-4" src="images/footer-image4.png" alt="IFIBYNE"></a>
+        </div>
+        <div class="footer-social">
+            <a href="https://www.instagram.com/alrescatedeltomatecriollo/?hl=es" target="_blank"><i class="fa-brands fa-instagram"></i></a> 
+            <a href="https://www.facebook.com/alrescatedeltomatecriollo/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+    </footer>
+    <div class="footer-bottom">
+        <p class="footer-copyright">&copy; 2023 Al rescate del tomate criollo. Todos los derechos reservados.</p><p class="footer-by">Hecho por <a href="https://www.instagram.com/joaquinmariosa/" target="_blank">Joaquín Mariosa</a></p>
+    </div>
+
+    <!-- JS -->
+    <script src="assets/js/main.js"></script>
+    <script src="https://kit.fontawesome.com/b8907a762d.js" crossorigin="anonymous"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</body>
+</html>
